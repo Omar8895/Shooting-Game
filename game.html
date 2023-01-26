@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+
+    <div class="container">
+
+    </div>
+    
+    <div class="title">
+        <p class="welcome2">Welcome : <span class="userName2"></span></p>
+        <p class="score">Score : <span class="total">0</span></p> 
+        <p class="time">Time : <span class="timer">00:00</span></p>
+        <p class="killed">Birds Killed : <span class="count">0</span></p>
+    </div>
+
+    <div class="window">
+        <img src="images/mandatory-signs-mach0049.png" class="sign">
+        <p class="welcome">Welcome : <span class="userName"></span></p>
+        <p class="p2">We hope you enjoy our game</p>
+        <p class="p3">To win you should kill 25 (black & white) </p>
+        <p class="p4">birds in specific time</p>
+
+        <input type="submit" value="Start game">
+    </div>
+
+
+    <div class="final">
+        <img src="images/sadbird.jpg" class="sad">
+        <img src="images/happybird.jpg" class="happy">
+        <p><span class="win">You Win</span> <span class="lose">You Lose</span></p>
+        <p class="fwindow">Thank you : <span class="userName3"></span></p> 
+        <p class="fwindow2">Your score is : <span class="total2"></span></p> 
+        <button class="new">New Game</button>
+        <button class="again">play Again ?</button>
+    </div>
+
+    <audio class="bullet">
+        <source src="audio/9mm-pistol-shot-6349.mp3"  type="audio/mp3">
+    </audio>
+
+    <audio class="boom">
+        <source src="audio/hq-explosion-6288.mp3" type="audio/mp3">
+    </audio>
+    <script src="game.js"></script>
+</body>
+</html>

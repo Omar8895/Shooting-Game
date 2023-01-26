@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="div1">
+
+        <h2 >Select Game Level</h2>
+        <input list="levels" class="list" placeholder="choose level"><span style="display: none;" class="required">required</span>
+            <datalist id="levels">
+                <option value="level 1"></option>
+            </datalist>
+        <h2 >Enter Your Name</h2>
+        <input type="text" placeholder="Enter your name" class="name">
+        <br> <br>
+        <input type="submit" value="Go" class="go"> 
+
+    </div>
+
+        
+    <div class="div2">
+
+        <h2>Game Bird Shotting Points</h2>
+        <img src="images/whiteBird.gif">
+        <span class="p5">+5 Points</span>
+        <br>
+        <img  src="images/blackBird.gif">
+        <span class="p10">+10 Points</span>
+        <br>
+        <img  src="images/blueBird.gif">
+        <span class="m10">-10 Points</span>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
